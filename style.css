@@ -1,0 +1,45 @@
+ 
+html,body{
+    margin:0;
+    padding:0;
+} 
+.container {
+    width:450px;
+    margin: 20px auto;
+    display:flex;
+    gap:40px;
+    justify-content: space-around; 
+    align-content:center;
+    align-items: center;
+    
+}
+.product-details{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;  
+}
+h2{
+    margin:0;
+}
+button{
+    font-size: 25px;
+    cursor: pointer;
+    padding: 12px;
+}
+.buttons{
+    display:flex;
+    justify-content: 
+    space-between;
+}
+.img-container{
+    width:auto;
+}
+img{
+    width: 178px;
+    margin: 0;
+    display: block;
+}
+span{
+    font-size: 25px;
+    font-weight: 900;
+}
